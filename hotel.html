@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>Кинологический клуб «Порода»</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut" href="img/favicon.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+
+<body>
+	<div class="body-wrap page">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box d-flex">
+						<div class="nav__content d-flex">
+							<img src="img/logo1.svg" alt="" class="nav__pic">
+							<a href="main.html" class="nav__logo d-flex">
+								<img src="img/logo2.svg" alt="">
+								<p>
+									Кинологический <br class="mob"> клуб «Порода»
+								</p>
+							</a>
+						</div>
+						<div class="nav__info d-flex">
+							<div class="nav__item">
+								<p class="nav__name">
+									Часы работы
+								</p>
+								<div class="nav__flex d-flex">
+									<p class="nav__text">
+										9 — 20
+									</p>
+									<p class="nav__text">
+										Пн — Пт
+									</p>
+								</div>
+							</div>
+							<div class="nav__item">
+								<p class="nav__name">
+									Как нас найти?
+								</p>
+								<p class="nav__text">
+									Москва, ул. Крылатская, д. 30
+								</p>
+							</div>
+						</div>
+						<a href="tel:+79035992659" class="nav__tel">
+							+7 903 599 26 59
+						</a>
+					</div>
+				</div>
+				<div class="nav__main">
+					<div class="container">
+						<ul class="nav__list d-flex">
+							<li>
+								<a href="#">
+									Главная
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Услуги
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									История клуба
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Галерея
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Мероприятия
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Бланки
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="menu-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu">
+				<div class="nav__info">
+					<div class="nav__item">
+						<p class="nav__name">
+							Часы работы
+						</p>
+						<div class="nav__flex d-flex">
+							<p class="nav__text">
+								9 — 20
+							</p>
+							<p class="nav__text">
+								Пн — Пт
+							</p>
+						</div>
+					</div>
+					<div class="nav__item">
+						<p class="nav__name">
+							Как нас найти?
+						</p>
+						<p class="nav__text">
+							Москва, ул. Крылатская, д. 30
+						</p>
+					</div>
+				</div>
+				<a href="tel:+79035992659" class="nav__tel">
+					+7 903 599 26 59
+				</a>
+				<ul class="nav__list d-flex">
+					<li>
+						<a href="#">
+							Главная
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Услуги
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							История клуба
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Галерея
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Мероприятия
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Бланки
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section class="blank ab hotel" id="ab">
+			<div class="container">
+				<div class="bread d-flex">
+					<a href="main.html">
+						Главная
+					</a>
+					<a href="hotel.html">
+						Гостиница для собак
+					</a>
+				</div>
+				<div class="ab__box d-flex">
+					<div class="ab__content">
+						<h1>
+							Гостиница для <br> ваших собак <br> <img src="img/h1.svg" alt="">
+						</h1>
+						<div class="hotel__content">
+							<p class="about__text">
+								Вы хотите уехать: на праздники, в отпуск или просто отдохнуть! Мы позаботимся о Вашем питомце!
+								Гостиница, домашняя обстановка, качественный уход, по желанию- дрессировка.
+							</p>
+							<p class="train__name">
+								Условия:
+							</p>
+							<p class="about__text">
+								Живут они у нас в обычном доме, на мягких диванах. Выгул осуществляется на закрытой территории,
+								полностью огороженной, а также подвижные игры и немного послушания, по желанию- дрессировка. С
+								хозяевами постоянных посетителей нашей гостиницы заключаем договор со скидками на обслуживание.
+							</p>
+							<p class="train__name">
+								Адрес:
+							</p>
+							<p class="about__text">
+								г. Москва, ул. Крылатская, д. 30, корп 1
+							</p>
+						</div>
+					</div>
+					<div class="ab__info">
+						<div class="ab__row d-flex">
+							<img src="img/w8.png" alt="" class="img1">
+							<div class="ser__el">
+								<p>
+									Сейчас <br class="mob"> свободно <br>
+									12 мест
+								</p>
+							</div>
+							<picture>
+								<source srcset="img/w99.png" media="(max-width: 600px)">
+								<img src="img/w9.png" alt="" class="img2">
+							</picture>
+						</div>
+					</div>
+				</div>
+				<div class="ab__bottom d-flex">
+					<img src="img/w10.png" alt="">
+					<div class="ab__right">
+						<p class="about__text">
+							Кинологический клуб «Порода» был создан в мае 1989 года, как самостоятельная и независимая
+							организация, объединяющая владельцев собак. На протяжении всей истории клуба основной идеей клуба
+							было и остаётся обеспечение комфортности владельцев при решении всего комплекса вопросов, связанных
+							с собакой – от выращивания щенка до выставок, реализации рабочих качеств и племенного
+							использования.
+						</p>
+						<p class="about__text">
+							При покупке щенка заводчик обязан информировать будущего владельца обо всех замеченных им до
+							продажи особенностях данного щенка, включая врождённые и генетические дефекты, отмеченные комиссией
+							при осмотре помёта, отклонения от нормы, обнаруженные самим заводчиком в процессе ухода за щенком и
+							т.п. Кроме того, при заключении договора купли-продажи, как правило, будущему владельцу
+							предоставляется пять дней, в течении которых он может вернуть щенка и получит обратно свои деньги
+							при выявлении не оговоренных при покупке врождённых и генетических недостатков.
+						</p>
+						<p class="about__text">
+							Некоторые недостатки экстерьера не связаны со здоровьем собаки в будущем. Это отклонения от
+							стандартного окраса шерсти или роговицы глаза, несколько расширенная или укороченная по сравнению
+							со стандартом форма головы и т.п. Такие особенности влияют на оценку экстерьера на выставках,
+							вызывают ограничения в плановом племенном использовании, но никак не влияют на рабочие качества,
+							характер, любовь.
+						</p>
+					</div>
+				</div>
+				<div class="hotel__flex d-flex">
+					<img src="img/w11.png" alt="">
+					<img src="img/w12.png" alt="">
+					<img src="img/w13.png" alt="">
+					<img src="img/w14.png" alt="">
+					<img src="img/w15.png" alt="">
+					<img src="img/w16.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="title">
+					<h2>
+						бронирование
+					</h2>
+					<span>
+						/
+					</span>
+					<p>
+						Связь с нами
+					</p>
+				</div>
+				<form action="#" class="contact__form hotel__form d-flex">
+					<input type="text" name="name" placeholder="Ваше имя">
+					<input type="tel" name="tel" class="tel" placeholder="Телефон">
+					<input type="text" name="name2" placeholder="Имя питомца">
+					<input type="text" name="name3" placeholder="Имя породы">
+					<input type="text" id="datepicker" placeholder="Дата заезда" class="hotel__data">
+					<input type="text" id="datepicker2" placeholder="Дата выезда" class="hotel__data">
+					<textarea name="text" placeholder="Комментарий"></textarea>
+					<button class="contact__btn btn">
+						Отправить
+						<img src="img/btn-arr.svg" alt="" class="svg">
+					</button>
+				</form>
+				<p class="contact__sub">
+					В соответствии с Федеральным законом № 152-ФЗ «О персональных данных»,
+					отправляя любую форму на этом сайте, вы подтверждаете своё
+					согласие на обработку <a href="#" target="blank"> персональных данных</a>
+				</p>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__row d-flex">
+					<a href="main.html" class="nav__logo d-flex">
+						<img src="img/logo2.svg" alt="">
+						<p>
+							Кинологический <br class="mob"> клуб «Порода»
+						</p>
+					</a>
+					<a href="tel:+79035992659" class="footer__tel">
+						+7(903)599-26-59
+					</a>
+					<a href="mailto:info@mail.ru" class="footer__mail">
+						info@mail.ru
+					</a>
+					<div class="footer__content">
+						<a href="#" class="footer__call d-flex">
+							Перезвоните нам <img src="img/arr-right.svg" alt="" class="svg">
+						</a>
+						<p class="footer__info">
+							понедельник - пятница <br>
+							10:00 – 19:00
+						</p>
+					</div>
+				</div>
+				<div class="footer__row d-flex">
+					<div class="footer__left d-flex">
+						<div class="footer__flex d-flex">
+							<img src="img/logo11.svg" alt="">
+							<p>
+								Российская <br class="mob"> Кинологическая <br class="mob"> Федерация
+							</p>
+						</div>
+						<p class="footer__one">
+							г. Москва, ул. Крылатская, д. 30, корп 1
+						</p>
+					</div>
+					<div class="footer__socials d-flex">
+						<a href="#" target="blank">
+							<img src="img/f1.svg" alt="" class="svg">
+						</a>
+						<a href="#" target="blank">
+							<img src="img/f2.svg" alt="" class="svg">
+						</a>
+						<a href="#" target="blank">
+							<img src="img/f3.svg" alt="" class="svg">
+						</a>
+					</div>
+				</div>
+				<div class="footer__bottom d-flex">
+					<p>
+						2023 ООО “Кинологический клуб” <br class="mob"> ОГРН: 111111111111 ИНН: 77777777777
+					</p>
+					<a href="#" class="footer__policy">
+						Политика конфиденциальности
+					</a>
+				</div>
+			</div>
+			<div class="footer__last">
+				<div class="container">
+					<div class="footer__com d-flex">
+						<a href="https://gasfort.ru/" target="blank">
+							<img src="img/com.svg" alt="">
+						</a>
+						<p>
+							Сайт разработан в студии
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			/* Локализация datepicker */
+			$.datepicker.regional['ru'] = {
+				closeText: 'Закрыть',
+				prevText: 'Предыдущий',
+				nextText: 'Следующий',
+				currentText: 'Сегодня',
+				monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+				monthNamesShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
+				dayNames: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+				dayNamesShort: ['вск', 'пнд', 'втр', 'срд', 'чтв', 'птн', 'сбт'],
+				dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+				weekHeader: 'Не',
+				dateFormat: 'dd.mm.yy',
+				firstDay: 1,
+				isRTL: false,
+				showMonthAfterYear: false,
+				yearSuffix: ''
+			};
+			$.datepicker.setDefaults($.datepicker.regional['ru']);
+		</script>
+		<script>
+			$(function () {
+				$("#datepicker").datepicker();
+			});
+		</script>
+		<script>
+			$(function () {
+				$("#datepicker2").datepicker();
+			});
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+		<script src="js/all.js"></script>
+</body>
+
+</html>
